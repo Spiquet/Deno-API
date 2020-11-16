@@ -1,0 +1,9 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run --unstable --allow-net --config ./tsconfig.json src/main.ts",
+      "desc": "run my main.ts file"
+    }
+  }
+}
