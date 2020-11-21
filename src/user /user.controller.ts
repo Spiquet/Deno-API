@@ -9,8 +9,6 @@ export class UserController {
     constructor(private userService: UserService) { }
     // getAll method which is decorated with a the Get decorator.
     @Get('')
-
-
     getAll() {
         return this.userService.getAll();
     }
